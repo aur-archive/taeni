@@ -1,0 +1,19 @@
+pkgbase = taeni
+	pkgdesc = Multi-tabbed terminal emulator based on VTE
+	pkgver = 167.250ee01
+	pkgrel = 1
+	url = https://github.com/alphaos/build
+	install = taeni.install
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = vala
+	makedepends = git
+	depends = vte3
+	depends = dconf
+	depends = desktop-file-utils
+	depends = hicolor-icon-theme
+	source = alphaos::git+https://github.com/alphaos/build
+
+pkgname = taeni
+
